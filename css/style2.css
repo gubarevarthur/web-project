@@ -1,0 +1,468 @@
+@media screen and (max-width: 800px){
+    .info, .container{
+        position: relative;
+        width: 100%;
+        top:initial;
+    }
+}
+@media screen and (max-width: 500px){
+    html{
+        font-size:12px;
+    }
+}
+@media screen and (max-width: 300px){
+    .weather-map{
+        min-height: 40em;
+    }
+}
+
+body{
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: rgb(219, 219, 219);
+    background-image: url(../images/day/michael-diane-weidner-h-rP5KSC2W0-unsplash.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+h1, h3 {
+    font-weight: 400;
+}
+.logo{
+    margin: 15px 20px;
+}
+nav{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 0px;
+    background-color: rgb(165, 165, 245);
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav ul li{
+    list-style: none;
+    margin: 15px 20px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #ccc;
+    margin: 1.5em 0;
+    font-size: 25px;
+}
+nav ul li a:hover{
+    color: #0e4d02;
+}
+
+nav ul li .active{
+    color: #0e4d02;
+}
+
+.navigation{
+    background-image: url(../icon/large.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+p{
+    font-family: 'Poppins' serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+h3{
+   
+    margin: 31px 0px 0px 42px;    font-family: 'Poppins' 'serif';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    
+}
+
+
+span{
+    color: #779341;
+    font-weight: 600;
+}
+.wel{
+    font-family: 'Poppins' serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 32px;
+    margin: 44px 0px 0px 0px;
+}
+a{
+    text-decoration: none;
+}
+.block1{
+    display: flex;
+}
+
+h1{
+    font-family: 'Poppins' serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 55px;
+    line-height: 82px;
+}
+
+.have{
+    color: #8D8D8D;
+    font-family: 'Poppins' serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    margin-left: 160px;
+    margin-top: 50px;
+
+}
+.block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.form{
+    width: 539px;
+    height: 741px;
+    background-color: rgba(255, 255, 255, 0.75);
+    border-radius: 40px;
+    float: right;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.global{
+    margin: 0px 44px;
+}
+
+.gool_face_appl{
+    margin-top: 42px;
+    display: flex;
+    height: 56px;
+    
+}
+
+.gool{
+    display: flex;
+    width: 298px;
+    background:  #E9F1FF;
+    border-radius: 9px;
+    align-items: center;
+    padding-left: 32px;
+}
+
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 55px;
+    background-image: url('images/Rectangle\ 15.png');
+    justify-content: center;
+
+}
+
+.add1{
+    margin-left: 20px;
+}
+
+.add2{
+    margin-left: 13px;
+}
+
+.gool_text{
+    font-family: 'Poppins' serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #4285F4;
+    padding-left: 21px;
+    
+}
+
+.forma{
+    margin-top: 50px;
+}
+
+
+label {
+    font-family: 'Poppins' serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: inline-block;
+    margin-bottom: 13px;
+}
+
+input{
+    height: 57px;
+    width: 100%;
+    border: 1px solid #4285F4;
+    border-radius: 9px;
+    font-family: 'Poppins' serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 25px;
+    
+}
+
+
+.user_cotant{
+    display: flex;
+    margin-top: 35px;
+}
+
+.user1{
+    width: 100%;  
+}
+.contact{
+    width: 100%;
+    margin-left: 19px;
+}
+
+.div_password{
+    margin-top: 36px;
+}
+
+.forget{
+    
+    margin-top: 12px;
+    font-family: 'Poppins'serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    float: right;
+    color: #4285F4;
+}
+
+.forget_div{
+float: right;
+height: 100%;
+width: 100%;
+}
+
+.submit_class{
+    border: none;
+    background-color: #779341;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-family: 'Poppins' serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px; 
+}
+
+
+.submit_div{
+    width: 236px;
+    height: 56px;
+    float: right;
+    background-color: #779341;
+    box-shadow: 0px 4px 19px rgba(119, 147, 65, 0.3);
+    border-radius: 10px;
+    margin-top: 44px;
+
+}
+.submit_class:hover{
+    background-color: #596d30;
+}
+
+    
+.gool_face_appl{
+    margin-top: 42px;
+    display: flex;
+    height: 56px;
+    
+}
+
+.gool{
+    display: flex;
+    width: 180px;
+    background:  #E9F1FF;
+    border-radius: 9px;
+    align-items: center;
+    padding-left: 17px;
+}
+
+
+.add{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 55px;
+    background-image: url('images/Rectangle\ 15.png');
+    justify-content: center;
+
+}
+
+.add1{
+    margin-left: 12px;
+}
+
+.add2{
+    margin-left: 7px;
+}
+.gool_text{
+
+    font-size: 12px;
+    color: #4285F4;
+    padding-left: 12px;
+    
+}
+
+input{
+    height: 57px;
+    width: 100%;
+    border: 1px solid #4285F4;
+    border-radius: 9px;
+    font-family: 'Poppins' serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 21px;
+    padding-left: 15px;
+    
+}
+.submit_div{
+    width: 149px;
+    height: 54px; 
+margin-top: 45px;
+}
+
+.modal {
+    position: fixed; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.5); 
+    z-index: 1050;
+    opacity: 0;
+    -webkit-transition: opacity 200ms ease-in; 
+    -moz-transition: opacity 200ms ease-in;
+    transition: opacity 200ms ease-in; 
+    pointer-events: none; 
+    margin: 0;
+    padding: 0;
+}
+
+.modal:target {
+    opacity: 1;
+	  pointer-events: auto; 
+    overflow-y: auto; 
+}
+
+.modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px;
+}
+@media (min-width: 576px) {
+  .modal-dialog {
+      max-width: 500px;
+      margin: 300px auto;
+  }
+}
+
+.modal-content {
+    position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    background-color: #fff;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box;
+    border: 1px solid rgba(0,0,0,.2);
+    border-radius: .3rem;
+    outline: 0;
+}
+@media (min-width: 768px) {
+  .modal-content {
+      -webkit-box-shadow: 0 5px 15px rgba(0,0,0,.5);
+      box-shadow: 0 5px 15px rgba(0,0,0,.5);
+  }
+}
+/* Стили заголовка окна */
+.modal-header {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 15px;
+    border-bottom: 1px solid #eceeef;
+}
+.modal-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.5;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+/* Стили кнопки "х" ("Закрыть")  */
+.close {
+    float: right;
+    font-family: sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .5;
+    text-decoration: none;
+}
+/* Стили для закрывающей кнопки в фокусе или наведении */
+.close:focus, .close:hover {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+    opacity: .75;
+}
+/* Стили блока основного содержимого окна */
+.modal-body {
+  position: relative;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 auto;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 15px;
+    overflow: auto;
+}
