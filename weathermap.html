@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Weather Map</title>
+        <link rel="stylesheet" type="text/css" href="css/style4.css" />
+        <link
+            href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+    </head>
+    <body>
+        <nav class="navigation">
+            <img
+                class="logo"
+                src="icon/weather-forecast.png"
+                alt="weather-forecast"
+                width="100"
+                height="100"
+            />
+            <ul>
+                <li><a href="Index.html">Home</a></li>
+                <li><a href="#" class="active">Weather map</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="sign_in.html">Sign In</a></li>
+                <li><a href="sign_up.html">Sign Up</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+            <div class="weather-map" id="weather-map">
+                <button class="btn" onclick="zoomin()">+</button>
+                <button class="btn" onclick="zoomout()">-</button>
+            </div>
+
+            <div class="info">
+                <p class="header">Synoptic map</p>
+                <p class="text">
+                    A synoptic map is a geographical map on which the results of
+                    observations at a network of meteorological stations at
+                    certain points in time are plotted with numbers and symbols.
+                    Such charts are regularly compiled by the weather service
+                    several times a day; their analysis is the main operation
+                    enabling the subsequent weather forecast.
+                </p>
+
+                <input
+                    type="checkbox"
+                    class="switch"
+                    id="myCheck"
+                    onclick="weather()"
+                /><label for="myCheck">Toggle</label>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <h3>Accurate 12 Day Weather Forecasts</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quibusdam voluptatum soluta reiciendis itaque possimus!
+                </p>
+                <ul class="socials">
+                    <li>
+                        <a href="https://ru-ru.facebook.com/"
+                            ><i class="fa fa-facebook"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/?lang=ru"
+                            ><i class="fa fa-twitter"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.ru/"
+                            ><i class="fa fa-google-plus"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/"
+                            ><i class="fa fa-youtube"></i
+                        ></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    copyright &copy;2022 designed by <span>Gubarev Arthur</span>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Home</title>
+        <link rel="stylesheet" type="text/css" href="css/style.css" />
+        <link
+            href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css"
+            rel="stylesheet"
+            type="text/css"
+        />
+    </head>
+    <body>
+        <!--надо на фон хедара поставить красивую картинку-->
+
+        <nav class="navigation">
+            <img
+                class="logo"
+                src="icon/weather-forecast.png"
+                alt="weather-forecast"
+                width="100"
+                height="100"
+            />
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="weathermap.html">Weather map</a></li>
+                <li><a href="video.html">Video</a></li>
+                <li><a href="sign_in.html">Sign In</a></li>
+                <li><a href="sign_up.html">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div>
+            <div>
+                <p class="header">Accurate 12 Day Weather Forecasts</p>
+                <p class="text">
+                    Accurate 12 Day Weather Forecasts for thousands of places
+                    around the World. We provide detailed Weather Forecasts over
+                    a 12 day period updated four times a day. Our interactive
+                    weather maps can be customized to show forecasts of
+                    temperature, weather and wind. You can also overlay pressure
+                    and live weather observations on maps of any country. Select
+                    our weather today forecast pages to get 3 hourly detail and
+                    live weather reports. Browse our weather photo albums
+                    showing a great selection of weather extremes from around
+                    the world including hurricanes, floods, storms, tornadoes
+                    and major snow events.
+                </p>
+            </div>
+        </div>
+
+        <div class="weather-app" id="weather-app">
+            <div class="container">
+                <h3 class="brand">The Weather</h3>
+                <div>
+                    <h1 class="temp" id="temps">16&#176;</h1>
+                    <div class="city-time">
+                        <h1 class="name" id="names">London</h1>
+                        <small>
+                            <span class="time">12:09</span>
+                            <span class="date">Sunday Nov 25</span>
+                        </small>
+                    </div>
+                    <div class="weather">
+                        <img
+                            id="icon"
+                            src="icon/day/116.png"
+                            class="icon"
+                            alt="icon"
+                            width="50"
+                            height="50"
+                        />
+                        <span class="condition" id="conditions">Cloudy</span>
+                    </div>
+                </div>
+            </div>
+            <div class="panel">
+                <from id="locationInput">
+                    <input
+                        type="text"
+                        class="search"
+                        placeholder="Search Location..."
+                    />
+                    <button type="submit" class="submit">
+                        <img
+                            src="/Web-Project/icon/search-interface-symbol.png"
+                            height="30"
+                            width="30"
+                        />
+                    </button>
+                </from>
+
+                <ul class="cities">
+                    <li class="city" onclick="london()">London</li>
+                    <li class="city" onclick="newYork()">New York</li>
+                    <li class="city" onclick="california()">California</li>
+                    <li class="city" onclick="paris()">Paris</li>
+                    <li class="city" onclick="tokyo()">Tokyo</li>
+                </ul>
+
+                <ul class="details">
+                    <h4>Weather Details</h4>
+                    <li>
+                        <span>Cloudy</span>
+                        <span class="cloud" id="clouds">89%</span>
+                    </li>
+                    <li>
+                        <span>Humidity</span>
+                        <span class="humidity" id="humidities">64%</span>
+                    </li>
+                    <li>
+                        <span>Wind</span>
+                        <span class="wind" id="winds">8km/h</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <footer>
+            <div class="footer-content">
+                <h3>Accurate 12 Day Weather Forecasts</h3>
+                <p>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Quibusdam voluptatum soluta reiciendis itaque possimus!
+                </p>
+                <ul class="socials">
+                    <li>
+                        <a href="https://ru-ru.facebook.com/"
+                            ><i class="fa fa-facebook"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/?lang=ru"
+                            ><i class="fa fa-twitter"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="https://www.google.ru/"
+                            ><i class="fa fa-google-plus"></i
+                        ></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/"
+                            ><i class="fa fa-youtube"></i
+                        ></a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-bottom">
+                <p>
+                    copyright &copy;2022 designed by <span>Gubarev Arthur</span>
+                </p>
+            </div>
+        </footer>
+        <script type="text/javascript" src="skrypt.js"></script>
+    </body>
+</html>
